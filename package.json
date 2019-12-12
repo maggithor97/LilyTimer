@@ -1,0 +1,16 @@
+{
+  "name": "lilytimer",
+  "version": "1.0.0",
+  "description": "Hjálpar við lærdóm",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "browser-sync":"browser-sync start --server --files index.html ./styles/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Magnús Þór Valdimarsson",
+  "license": "ISC"
+}

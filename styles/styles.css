@@ -1,0 +1,110 @@
+html {
+    font-size: 16px;
+    background-color: #d5e0fe;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    background-image: url("../lilyFace3.jpg");
+    background-size: 5em;
+    background-repeat: repeat;
+    background-position: center;
+    border-bottom: black solid 2px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 5vw;
+    font: bold;
+    color: #2cbcb2 ;
+    background-color: #242021;
+}
+
+.content__uppi {
+    margin: 10vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0em;
+    margin-top: 1rem;
+}
+
+.uppi__kassi {
+    background-color:#2cbcb2;
+    border: rgb(0, 64, 138) solid 2px;
+}
+.uppi__kassi__content {
+    margin: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    color: #242021;
+}
+/******************************
+*****Hover yfir takka uppi*****
+******************************/
+.uppi__kassi:hover{
+    background-color: #242021;
+}
+#uppi__laera:hover #uppi__kassi__content1 {
+    color: #2cbcb2;
+}
+#uppi__pasa:hover #uppi__kassi__content2 {
+    color: #2cbcb2;
+}
+#uppi__breyta:hover #uppi__kassi__content3 {
+    color: #2cbcb2;
+}
+
+
+.content__timi {
+    margin: 2rem;
+    font-size: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.nidri__kassi {
+    /*Setja mynd hliðiná texta*/
+}
+.nidri__kassi__content{
+    margin: 1em;
+}
+.content__nidri {
+    display: flex;
+    justify-content: space-around;
+}
+
+/**************************
+***** 3 Kassar niðri*******
+**************************/
+.nidri__spila {
+    background-color: #5da423;
+    display: flex;
+}
+.nidri__pasa {
+    background-color: red;
+    display: flex;
+}
+.nidri__restart {
+    background-color: gray;
+}
+.nidri__spila:hover{
+    background-color: rgb(45, 194, 45);
+}
+.nidri__pasa:hover {
+    background-color: rgb(197, 0, 0);
+}
+.nidri__restart:hover {
+    background-color: rgb(104, 104, 104);
+}
+.nidri__kassi__mynd {
+    width: 2em;
+    height: 2em;
+}
