@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    background-color: #d5e0fe;
+    background-color: #bbc5e0;
 }
 
 body {
@@ -9,21 +9,37 @@ body {
 
 .header {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background-image: url("../lilyFace3.jpg");
     background-size: 5em;
     background-repeat: repeat;
     background-position: center;
     border-bottom: black solid 2px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
 }
 
-h1 {
+.header__breyta {
+    background-color: coral;
+    width: 20vw;
+    margin-top: 0em;
+}
+.header_nafn {
+    /* margin: auto 0 0; */
+    margin-bottom: 0px;
+}
+
+.header__nafn {
+    width: 30vw;
     font-size: 5vw;
     font: bold;
     color: #2cbcb2 ;
     background-color: #242021;
+    display: flex;
+    justify-content: center;
 }
 
 .content__uppi {
@@ -35,7 +51,7 @@ h1 {
 }
 
 .uppi__kassi {
-    background-color:#2cbcb2;
+    background-color:#ffffff;
     border: rgb(0, 64, 138) solid 2px;
 }
 .uppi__kassi__content {
@@ -52,14 +68,20 @@ h1 {
 .uppi__kassi:hover{
     background-color: #242021;
 }
-#uppi__laera:hover #uppi__kassi__content1 {
-    color: #2cbcb2;
+#uppi__laera:hover #uppi__kassi__content11 {
+    color: #ffffff;
 }
-#uppi__pasa:hover #uppi__kassi__content2 {
-    color: #2cbcb2;
+#uppi__laera:hover #uppi__kassi__content12 {
+    color: #ffffff;
+}
+#uppi__pasa:hover #uppi__kassi__content21 {
+    color: #ffffff;
+}
+#uppi__pasa:hover #uppi__kassi__content22 {
+    color: #ffffff;
 }
 #uppi__breyta:hover #uppi__kassi__content3 {
-    color: #2cbcb2;
+    color: #ffffff;
 }
 
 
@@ -84,6 +106,7 @@ h1 {
 /**************************
 ***** 3 Kassar niðri*******
 **************************/
+
 .nidri__spila {
     background-color: #5da423;
     display: flex;
@@ -108,3 +131,63 @@ h1 {
     width: 2em;
     height: 2em;
 }
+
+/***************************
+********Pop-up*************
+*************************/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /***************************
+  *******Annað pop-up*********
+  **************************/
+  .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
